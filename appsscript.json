@@ -1,0 +1,74 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+  },
+  "webapp": {
+    "access": "MYSELF",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "copiarCorreo",
+      "functionName": "copiarCorreo",
+      "defaultShortcut": "Ctrl+Alt+Shift+1"
+    }, {
+      "menuName": "nuevaCompra",
+      "functionName": "nuevaCompra",
+      "defaultShortcut": "Ctrl+Alt+Shift+1"
+    }, {
+      "menuName": "copiarReciboPago",
+      "functionName": "mostrarReciboPago",
+      "defaultShortcut": "Ctrl+Alt+Shift+3"
+    }, {
+      "menuName": "nuevoRegistro",
+      "functionName": "nuevoRegistro",
+      "defaultShortcut": "Ctrl+Alt+Shift+0"
+    }, {
+      "menuName": "copiarSoporte",
+      "functionName": "copiarSoporte"
+    }, {
+      "menuName": "insertarNetflix",
+      "functionName": "InsertarNetflix",
+      "defaultShortcut": "Ctrl+Alt+Shift+9"
+    }, {
+      "menuName": "ActivarNetflix",
+      "functionName": "ActivarNetflix"
+    }, {
+      "menuName": "confirmarPago",
+      "functionName": "confirmarPago",
+      "defaultShortcut": "Ctrl+Alt+Shift+7"
+    }, {
+      "menuName": "limpiarCorreosEnVentas",
+      "functionName": "limpiarCorreosEnVentas"
+    }, {
+      "menuName": "actualizarDeudoresConSeleccionMultiple",
+      "functionName": "actualizarDeudoresConSeleccionMultiple",
+      "defaultShortcut": "Ctrl+Alt+Shift+2"
+    }, {
+      "menuName": "cambiarFuenteEnTodasLasHojas",
+      "functionName": "cambiarFuenteEnTodasLasHojas"
+    }, {
+      "menuName": "actualizarDeudores",
+      "functionName": "actualizarDeudores",
+      "defaultShortcut": "Ctrl+Alt+Shift+2"
+    }, {
+      "menuName": "actualizarAbono",
+      "functionName": "actualizarAbono",
+      "defaultShortcut": "Ctrl+Alt+Shift+4"
+    }, {
+      "menuName": "actualizarDeuda",
+      "functionName": "actualizarDeuda",
+      "defaultShortcut": "Ctrl+Alt+Shift+2"
+    }, {
+      "menuName": "actualizarAbonoCliente",
+      "functionName": "actualizarAbonoCliente",
+      "defaultShortcut": "Ctrl+Alt+Shift+4"
+    }, {
+      "menuName": "actualizarDeudaCliente",
+      "functionName": "actualizarDeudaCliente",
+      "defaultShortcut": "Ctrl+Alt+Shift+2"
+    }]
+  }
+}

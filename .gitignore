@@ -1,0 +1,16 @@
+# Ignora el archivo de configuración de Clasp (contiene el ID del proyecto)
+.clasp.json
+
+# Ignora los archivos del entorno de desarrollo
+node_modules/
+package-lock.json
+
+# Ignora archivos del sistema o editores
+.DS_Store
+Thumbs.db
+
+# Ignora carpetas de configuración de VSCode (si la usas)
+.vscode/
+
+# Ignora archivos temporales
+*.log
