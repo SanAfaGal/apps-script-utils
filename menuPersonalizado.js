@@ -1,20 +1,3 @@
-// Diccionario con la información de cada plataforma
-const PLATAFORMAS = {
-  'Netflix':     { emoji: '🍿', datos: { comisionista: 'B', plataforma: 'Netflix', pais: '🇨🇴', pin: '*', dispositivo: '*', valor: 15000 } },
-  'Prime Video': { emoji: '📦', datos: { comisionista: 'S', plataforma: 'Prime', pais: '',    pin: '*', dispositivo: '¿?', valor: 7000  } },
-  'Disney+':     { emoji: '🏰', datos: { comisionista: 'S', plataforma: 'Disney+', pais: '',  pin: '',  dispositivo: '¿?', valor: 10000 } },
-  'YouTube':     { emoji: '▶️', datos: { comisionista: 'S', plataforma: 'Youtube', pais: '',  pin: '',  dispositivo: '*', valor: 13000 } },
-  'Max':         { emoji: '🎭', datos: { comisionista: 'B', plataforma: 'Max', pais: '',      pin: '',  dispositivo: '*', valor: 10000 } },
-  'Spotify':     { emoji: '🎧', datos: { comisionista: 'B', plataforma: 'Spotify', pais: '',  pin: '-', dispositivo: '-', valor: 10000 } },
-  'Crunchyroll': { emoji: '🦊', datos: { comisionista: 'S', plataforma: 'Crunchyroll', pais:'',pin:'*', dispositivo:'*', valor: 10000 } },
-  'Paramount+':  { emoji: '🌄', datos: { comisionista: 'S', plataforma: 'Paramount', pais:'', pin:'*', dispositivo:'*', valor: 10000 } },
-  'IPTV':        { emoji: '📡', datos: { comisionista: 'B', plataforma: 'IPTV', pais:'',      pin:'*', dispositivo:'*', valor: 18000 } },
-  'Vix':         { emoji: '📺', datos: { comisionista: 'B', plataforma: 'Vix', pais:'',       pin:'*', dispositivo:'*', valor: 10000 } },
-  'Plex':        { emoji: '🗂️', datos: { comisionista: 'S', plataforma: 'Plex', pais:'',      pin:'-', dispositivo:'-', valor: 10000 } },
-  'Canva':       { emoji: '🎨', datos: { comisionista: 'S', plataforma: 'Canva', pais:'',     pin:'-', dispositivo:'-', valor: 15000 } },
-  'Apple':       { emoji: '🍎', datos: { comisionista: 'S', plataforma: 'Apple', pais:'',     pin:'*', dispositivo:'*', valor: 10000 } }
-};
-
 /**
  * Función principal al abrir la hoja: crea un menú dinámico con todas las plataformas.
  */
