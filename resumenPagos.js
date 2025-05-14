@@ -59,7 +59,7 @@ function generarMensajeResumenPagos() {
 
   // Armar el mensaje completo con título, total y cada sección
   const mensaje =
-    `📅 *Pago de suscripciones activas:*\n` +
+    `🎬 *Pago de suscripciones activas:*\n` +
     `💰 *Valor total:* \$${total.toLocaleString("es-CO")}\n\n` +
     partes.join("\n\n");
 
